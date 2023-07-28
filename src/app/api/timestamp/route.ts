@@ -5,3 +5,5 @@ export async function GET(request: Request) {
     timestamp: Date.now()
   });
 }
+
+export const revalidate = 0;
